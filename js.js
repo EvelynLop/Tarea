@@ -6,6 +6,8 @@
 //si los parámetros no son correctos, la función debe cortar
 //su ejecución y devolver un mensaje de error
 
+//no funciona
+
 /*let nombre = prompt('Cual es tu nombre?')
 let añoDeNacimiento = prompt ('En que año naciste?')
 
@@ -22,26 +24,77 @@ const calcularAñosPerro = (nombre, añoDeNacimiento) => {
 calcularAñosPerro(parseInt(añoDeNacimiento));*/
 
 
+//=======================================================
+
+
 ///escribir una función getSquare()
 //que guarde en una variable el cuadrado de un número que reciba 
 //por parametro
 
-/*let numero = prompt('Escribe un numero')
-//let numberParseado = parseInt(number)xxx
-const getSquare = (number) => {
-   let numeroElegido = Math.pow(number,2);
-   alert(`Respuesta: ${number} al cuadrado es ${numeroElegido}`);
-}
-getSquare(parseInt(number));*/
 
-const number = prompt('ecribe un numero')
+/* const number = prompt('ecribe un numero')
 
 const getSquare = (numeroElegido) => {
     let resultado = Math.pow(numeroElegido,2);
     alert( `Respuesta: ${numeroElegido} al cuadrado es ${resultado}`);
 }
 
-getSquare(parseInt(number));
+getSquare(parseInt(number)); */
+
+
+//=======================================================
+
+
+//escribi una función returnLongest() que tome como parametros dos string
+//y retorne el string más largo (4)
+//si ambas string son igualmente largas, devuelve un mensaje 'They're the same'(3)
+//si una de las string no es válida. devuelve un mensaje 'One of the values is not a string' (2)
+//si ambos valores son inválidos, devuelve 'None of the values is a string' (1)
+
+//no funciona
+
+/*let palabra1 = prompt('Escribe una palabra');
+let palabra2 = prompt('Esribe otra palabra');
+
+const returnLongest = (primerString, segundoString) => {
+    if(typeof primerString !== 'string' && typeof segundoString !== 'string'){
+        alert ('None of the values is a string');
+    }else if(typeof primerString !== 'string' || typeof segundoString !== 'string'){
+        alert('One of the values is not a string');
+    }else if(primerString.length === segundoString.length){
+        alert('They are the same');
+    }else if(primerString.length > segundoString.length){
+        alert (`${primerString}`);
+    }else if(primerString.length < segundoString.length){
+        alert (`${segundoString}`);
+    }
+}*/
+
+
+
+//=======================================================
+
+//escribí una función countVowels() que reciba un string
+//y devuelva ( decidí vos como mostrar el resultado )
+//la cantidad de vocales en la palabra
+
+/*
+let vocales = ['a','e','i','o','u'];
+
+const countVowels = (palabraEscrita) => {
+    let count = 0;
+    for (let i of palabraEscrita.toLowerCase()){
+        if(vocales.includes(i)){
+            count++;
+            alert(`esta palabra tiene ${count} vocales  `)
+        }
+    }
+  
+}
+console.log(countVowels('eve')) */
+
+
+
 
 
 
