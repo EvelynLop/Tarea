@@ -78,7 +78,7 @@ const returnLongest = (primerString, segundoString) => {
 //y devuelva ( decidí vos como mostrar el resultado )
 //la cantidad de vocales en la palabra
 
-/*
+
 let vocales = ['a','e','i','o','u'];
 
 const countVowels = (palabraEscrita) => {
@@ -91,7 +91,7 @@ const countVowels = (palabraEscrita) => {
     }
   
 }
-console.log(countVowels('eve')) */
+console.log(countVowels('eve')) 
 
 
 
