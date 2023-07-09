@@ -6,10 +6,6 @@
 //si los parámetros no son correctos, la función debe cortar
 //su ejecución y devolver un mensaje de error
 
-//no funciona
-
-/*let nombre = prompt('Cual es tu nombre?')
-let añoDeNacimiento = prompt ('En que año naciste?')
 
 const calcularAñosPerro = (nombre, añoDeNacimiento) => {
     if(typeof nombre !== 'string' || typeof añoDeNacimiento !== 'number'){
@@ -20,8 +16,9 @@ const calcularAñosPerro = (nombre, añoDeNacimiento) => {
     edadDePerro = edadHumana*7;
     alert(`Hola ${nombre}. Tu tienes ${edadHumana} años y en edad de perro tendrais ${edadDePerro} años`);
 }
+console.log(calcularAñosPerro);
 }
-calcularAñosPerro(parseInt(añoDeNacimiento));*/
+calcularAñosPerro('eve', 2000);
 
 
 //=======================================================
@@ -51,7 +48,7 @@ getSquare(parseInt(number)); */
 //si una de las string no es válida. devuelve un mensaje 'One of the values is not a string' (2)
 //si ambos valores son inválidos, devuelve 'None of the values is a string' (1)
 
-const returnLongest = (primerString, segundoString) => {
+/* const returnLongest = (primerString, segundoString) => {
     if(typeof primerString !== 'string' && typeof segundoString !== 'string'){
         alert ('None of the values is a string');
     }else if(typeof primerString !== 'string' || typeof segundoString !== 'string'){
@@ -65,7 +62,7 @@ const returnLongest = (primerString, segundoString) => {
     }
     console.log(returnLongest)
 }
-returnLongest('eve','javascript');
+returnLongest('eve','javascript'); */
 
 
 
