@@ -51,11 +51,6 @@ getSquare(parseInt(number)); */
 //si una de las string no es válida. devuelve un mensaje 'One of the values is not a string' (2)
 //si ambos valores son inválidos, devuelve 'None of the values is a string' (1)
 
-//no funciona
-
-/*let palabra1 = prompt('Escribe una palabra');
-let palabra2 = prompt('Esribe otra palabra');
-
 const returnLongest = (primerString, segundoString) => {
     if(typeof primerString !== 'string' && typeof segundoString !== 'string'){
         alert ('None of the values is a string');
@@ -68,7 +63,9 @@ const returnLongest = (primerString, segundoString) => {
     }else if(primerString.length < segundoString.length){
         alert (`${segundoString}`);
     }
-}*/
+    console.log(returnLongest)
+}
+returnLongest('eve','javascript');
 
 
 
@@ -79,7 +76,7 @@ const returnLongest = (primerString, segundoString) => {
 //la cantidad de vocales en la palabra
 
 
-let vocales = ['a','e','i','o','u'];
+/* let vocales = ['a','e','i','o','u'];
 
 const countVowels = (palabraEscrita) => {
     let count = 0;
@@ -91,7 +88,7 @@ const countVowels = (palabraEscrita) => {
     }
   
 }
-console.log(countVowels('eve')) 
+console.log(countVowels('eve'))  */
 
 
 
